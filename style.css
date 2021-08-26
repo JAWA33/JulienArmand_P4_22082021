@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /*background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -775,38 +775,38 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #c27956;
+    color: #FFFFFF;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #c27956;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-dots-bg {
@@ -1039,4 +1039,37 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Changement de couleur 
+NOTA : CSS ajouter en plus pour test si validé, à intégrer au bon endroit*/
+
+.orange-dark-bg{
+    background-color: #C74249;
+}
+
+.orange-dark-text{
+    color: #C74249 !important;
+}
+
+.white-bg{
+    background-color: #FEFFFE;
+}
+
+.white-text{
+    color: #FEFFFE !important;
+}
+
+.black-text{
+    color: #575757;
+}
+
+.rounded-title{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.marginBottom{
+    margin-bottom: 40px;
+
 }
