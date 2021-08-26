@@ -1073,3 +1073,13 @@ NOTA : CSS ajouter en plus pour test si validé, à intégrer au bon endroit*/
     margin-bottom: 40px;
 
 }
+
+.minFontSize{
+    font-size: 14px;
+    text-align: center;
+}
+
+.minFontSizeBis{
+    font-size: 14px;
+    text-align:start;
+}
