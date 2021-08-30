@@ -508,6 +508,9 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 90vw;
+    min-height: 30px;
+    margin-bottom: 20px;
 }
 
 .scrollToTop {
