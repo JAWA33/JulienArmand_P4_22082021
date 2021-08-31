@@ -509,7 +509,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    width: 90vw;
+   
     min-height: 30px;
     margin-bottom: 20px;
 }
@@ -852,13 +852,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -876,10 +876,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -888,8 +885,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1089,12 +1084,12 @@ NOTA : CSS ajouté en plus pour test si validé, à intégrer au bon endroit*/
 }
 
 .spaceA{
-    margin-right: 40px;
+    
     list-style: none;
 }
 
 .spaceB{
-    margin-right: 150px;
+    
     list-style: none;
 }
 
@@ -1107,7 +1102,7 @@ NOTA : CSS ajouté en plus pour test si validé, à intégrer au bon endroit*/
     font-size: 20px;
     font-style: italic;
     margin: 0 auto;
-    width: 550px;
+    max-width: 550px;
 }
 
 .textImageB{
@@ -1118,5 +1113,5 @@ NOTA : CSS ajouté en plus pour test si validé, à intégrer au bon endroit*/
 .textImageC{
     font-size: 22px;
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
 }
