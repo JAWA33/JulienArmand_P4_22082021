@@ -81,7 +81,7 @@ a:hover {
 }
 
 .bloc-bg-texture::before {
-    content: "";
+    
     background-size: 2px 2px;
     position: absolute;
     top: 0;
@@ -556,6 +556,12 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+}
+
+@media (max-width: 768px){
+    a[data-lightbox]:hover::before{
+        left: 50%;
+    }
 }
 
 a[data-lightbox]:hover img {
